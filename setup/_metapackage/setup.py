@@ -9,11 +9,18 @@ setuptools.setup(
     version=version,
     install_requires=[
         'odoo11-addon-barcodes_generator_abstract',
+        'odoo11-addon-barcodes_generator_lot',
         'odoo11-addon-barcodes_generator_partner',
         'odoo11-addon-barcodes_generator_picking',
         'odoo11-addon-barcodes_generator_product',
+        'odoo11-addon-base_gs1_barcode',
         'odoo11-addon-product_multi_ean',
+        'odoo11-addon-stock_barcodes',
+        'odoo11-addon-stock_barcodes_gs1',
         'odoo11-addon-stock_scanner',
+        'odoo11-addon-stock_scanner_inventory',
+        'odoo11-addon-stock_scanner_location_info',
+        'odoo11-addon-stock_scanner_receipt',
     ],
     classifiers=[
         'Programming Language :: Python',
